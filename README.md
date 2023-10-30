@@ -19,8 +19,8 @@ Completed the Product preview card component Frontend Mentor challenge
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/yash-kewlani/product-preview-card-component)
+- Live Site URL: [product-preview-card-component](https://yash-kewlani.github.io/product-preview-card-component/)
 
 ## My process
 
@@ -42,6 +42,6 @@ My current focus for know is to learn CSS. Once that is done, I will focus on so
 
 ## Author
 
-- Website - [Yash Kewlani](https://www.your-site.com)
+- Website - [Yash Kewlani](https://yash-kewlani.github.io/product-preview-card-component/)
 - Frontend Mentor - [@yash-kewlani](https://www.frontendmentor.io/profile/yash-kewlani)
 
