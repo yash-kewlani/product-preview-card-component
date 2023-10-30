@@ -1,0 +1,115 @@
+body {
+    height: 100%; 
+    padding: 1rem;
+    margin: 0;
+    background-color: hsl(30, 38%, 92%);
+    font-size: 0.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+.product__detail {
+    background-color: hsl(0, 0%, 100%);
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 10% auto;
+    border-radius: 1rem;
+}
+
+.product__detail-image {
+    width: 100%;
+    height: 15rem;
+    background: url('images/image-product-mobile.jpg') no-repeat center;
+    background-size: cover;
+    border-top-left-radius: .6rem;
+    border-top-right-radius: .6rem;
+}
+
+.product__detail-info {
+    padding: 1rem;
+}
+
+.product__detail-category {
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: .3rem;
+}
+
+.product__detail-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.product__detail-description {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.product__detail-price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product__detail-discounted-price {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    font-size: 1.9rem;
+}
+
+.product__detail-actual-price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.button {
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-block: .7rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: hsl(228, 12%, 48%);
+}
+
+.button::before {
+    content: url('images/icon-cart.svg');
+    margin-right: .6em;
+}
+
+@media screen and (min-width: 500px) {
+    .product__detail {
+        max-width: 550px;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: auto;
+    }
+
+    .product__detail-image {
+        background: url('images/image-product-desktop.jpg') no-repeat center;
+        background-size: cover;
+        height: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: .6rem;
+    }
+}
